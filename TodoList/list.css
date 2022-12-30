@@ -1,0 +1,113 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    background: #066acd;
+}
+.container{
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 400px;
+    position:absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    padding-left: 90px;
+}
+h3
+{
+  text-align:justify;
+  position:static;
+  padding-top: 8px;
+}
+#newtask{
+    position: relative;
+    padding-top: 15px;
+}
+#newtask input{
+    width: 53%;
+    height: 50%;
+    padding: 5px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position:sticky;
+    
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    padding-right: -50px;
+}
+div h3
+{
+  text-align:justify;
+  position:static;
+  padding-top: 18px;
+}
+#tasks{
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 100%;
+    padding: 5px 20px;
+    display:list-item;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button
+{
+    position:sticky;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #f5f6f7;
+    border: none;
+    color: #060606;
+    cursor: pointer;
+    outline: none;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    padding-right: -50px;
+}
